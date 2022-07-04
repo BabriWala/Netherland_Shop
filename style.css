@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: #f5f0e1;
+}
+
+.main__container {
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+.container {
+  padding: 50px;
+}
+
+.container__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Oswald", sans-serif;
+  color: #1e3d59;
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 1;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 20px;
+  color: #000000a2;
+}
+
+button {
+  font-family: "Oswald", sans-serif;
+  height: 46px;
+  width: 200px;
+  background-color: transparent;
+  outline: none;
+  border-radius: 5px;
+  border: 3px solid #1e3d59;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  color: #1e3d59;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #1e3d59;
+  border: none;
+  color: #f5f0e1;
+}
+
+.contact__btn {
+  background-color: #1e3d59;
+  border: none;
+  color: #f5f0e1;
+}
+
+.contact__btn:hover {
+  background-color: transparent;
+  border: 3px solid #1e3d59;
+  cursor: pointer;
+  color: #1e3d59;
+}
+
+span {
+  color: #ffc13b;
+}
+
+.header__description {
+  width: 50%;
+}
+
+.header__img {
+  width: 40%;
+  text-align: center;
+}
+
+.header__img img {
+  height: 500px;
+}
+
+.about__img {
+  width: 30%;
+}
+
+.about__img img {
+  height: 500px;
+}
+
+.about__seller {
+  width: 60%;
+}
+
+.our__products .container h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.products__content {
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.container__item .products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.products__item {
+  width: 48%;
+  padding: 2%;
+  background-color: #ffffff36;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 15px;
+}
+.products__item p {
+  margin-bottom: 5px;
+}
+.products__item img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.overview .container__item {
+  justify-content: space-around;
+  background-color: #ffffff36;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.06) 0px 5px 15px;
+}
+
+.overview__item {
+  text-align: center;
+}
+
+.overview__item small {
+  font-size: 16px;
+  color: #000000a2;
+}
+
+.overview__item h2 {
+  margin-bottom: 5px;
+}
+
+footer {
+  text-align: center;
+  padding: 50px 0 50px 0;
+}
+
+footer p {
+  text-align: center;
+}
